@@ -1,16 +1,116 @@
 @import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic");
 @import "layout.css";
-
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 h1 {
   font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 36px 0;
 }
 
-.lid {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.4);
-  line-height: 20px;
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #000000;
+  margin: 64px 0 16px 0;
 }
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #000000;
+  margin: 56px 0 12px 0;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #000000;
+  margin: 52px 0 8px 0;
+}
+
+/* Параграфы */
+p {
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 23px;
+  color: #333333;
+  margin: 0 0 52px 0;
+}
+
+/* Подзаголовок (лид) */
+p.lid {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 36px 0 0 0;
+}
+
+/* Изображение - только отступы и размеры */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 60px 0;
+
+  /* width: 1020px;
+  height: auto;
+  margin: 90px 0 90px 0; */
+}
+
+/* Цитаты */
+blockquote {
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 23px;
+  color: #333333;
+  border-left: 3px solid #000000;
+  margin: 52px 0 52px -17px;
+  padding: 16px 0 16px 17px;
+  font-style: italic;
+}
+
+/* Списки (только с классом styled-list) */
+ol.styled-list,
+ul.styled-list {
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 23px;
+  color: #333333;
+  margin: 16px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+ol.styled-list li,
+ul.styled-list li {
+  margin: 8px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+ol.styled-list li::before,
+ul.styled-list li::before {
+  content: "•";
+  color: #000000;
+  position: absolute;
+  left: 16px;
+}
+
+/* Псевдо-элементы для заголовков
+h1::before {
+  content: "";
+  display: block;
+  height: 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  height: 0;
+}
+*/

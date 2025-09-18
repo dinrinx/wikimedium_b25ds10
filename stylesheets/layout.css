@@ -1,7 +1,33 @@
-div {
-  padding: 80px 260px;
+body {
+  font-family: "PT sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoorhing: grayscale;
 }
 
+/* Домашко
+Контейнеры и макет 
 .header {
-  background-color: antiquewhite;
+  max-width: 800px;
+  margin: 0;
+  padding: 80px 30px 0 30px;
 }
+
+Дополнительные стили для улучшения читаемости 
+p:last-child {
+  margin-bottom: 0;
+}
+
+Дополнительные псевдо-классы для улучшения читаемости 
+p:first-child {
+  margin-top: 0;
+}
+
+Отступы для элементов рядом с изображением 
+p + img {
+  margin-top: 90px;
+}
+
+Убираем дублирование отступа у текста после картинки
+img + p {
+  margin-top: 0;
+} */
