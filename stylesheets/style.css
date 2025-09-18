@@ -62,7 +62,7 @@ img {
   margin: 90px 0 90px 0; */
 }
 
-/* Цитаты */
+/* Цитаты 
 blockquote {
   font-size: 11px;
   font-weight: normal;
@@ -72,7 +72,7 @@ blockquote {
   margin: 52px 0 52px -17px;
   padding: 16px 0 16px 17px;
   font-style: italic;
-}
+} */
 
 /* Списки (только с классом styled-list) */
 ol.styled-list,
